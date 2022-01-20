@@ -1,0 +1,18 @@
+Devops roles for Git/github
+
+1. repository creation (git clone or git init)
+2. create 3 branches (prod, UAT, & Dev) (git checkout -b <new branch name> or git branch <branch name>)
+
+3. Add team as collaborators to this repository
+5. protect branches
+6. pull request
+7. merge conflicts
+8. git commands
+git stash
+git rebase
+git merge
+git pull=git merge+git fetch
+git fetch
+git cherry-pick
+what are hooks in git
+git revert
