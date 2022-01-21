@@ -36,3 +36,9 @@ Developer-------
  branches Dev-Feature-1
           Dev-Feature-2
  major-release (pom.xml, readme.md)
+  
+-production (real production workload)
+   --hotfixes (branches that are quick fixes on production)
+-staging (duplicate of out production environment and if it all pass tests we will swap it with production)
+-master/developer (main branch where we are going to merge all or features)
+-qa (performs tests before merging into staging).
